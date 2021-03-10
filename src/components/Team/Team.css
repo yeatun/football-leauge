@@ -1,0 +1,55 @@
+
+ 
+  .button {
+    background-color: #bde9bf;
+    border: none;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .auto-grid {
+    --auto-grid-min-size: 16rem;
+  }
+  
+  .auto-grid > * {
+    max-width: 400px;
+  }
+  
+  .auto-grid > * + * {
+    margin-top: 1rem;
+  }
+  
+  @supports(display: grid) {
+    .auto-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+      grid-gap: 1rem;
+    }
+    
+    .auto-grid > * {
+      max-width: unset;
+    }
+  
+    .auto-grid > * + * {
+      margin-top: unset;
+    }
+  }
+  
+
+  .wrapper {
+    max-width: 65rem;
+    padding: 1rem ;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+  }
+  
+  

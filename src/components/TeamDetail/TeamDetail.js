@@ -19,7 +19,7 @@ import {
 
 const TeamDetail = () => {
     const teamStyle ={
-        // padding:"30px",
+        
         padding: "5px",
         paddingTop:"20px",
         border: '0px solid ',
@@ -86,15 +86,15 @@ const TeamDetail = () => {
             </div>
             <div className="social">
             <a href="https://www.youtube.com/c/jamesqquick"
-                   target="_blank"  className="youtube social">
+                   target="_blank" rel="noreferrer"  className="youtube social">
                     <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>
                 <a href="https://www.facebook.com/learnbuildteach/"
-                   target="_blank"  className="facebook social">
+                   target="_blank" rel="noreferrer"  className="facebook social">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                     </a>
                 <a href="https://www.twitter.com/jamesqquick"  target="_blank" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    <FontAwesomeIcon rel="noreferrer" icon={faTwitter} size="2x" />
                     </a>
             </div>
         </div>

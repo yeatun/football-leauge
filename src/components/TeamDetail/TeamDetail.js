@@ -93,8 +93,9 @@ const TeamDetail = () => {
                    target="_blank" rel="noreferrer"  className="facebook social">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                     </a>
-                <a href="https://www.twitter.com/jamesqquick"  target="_blank" className="twitter social">
-                    <FontAwesomeIcon rel="noreferrer" icon={faTwitter} size="2x" />
+                <a href="https://www.twitter.com/jamesqquick"  target="_blank" rel="noreferrer" className="twitter social">
+                    
+                    <FontAwesomeIcon  icon={faTwitter} size="2x" />
                     </a>
             </div>
         </div>

@@ -24,7 +24,6 @@ const TeamDetail = () => {
         paddingTop:"20px",
         border: '0px solid ',
         borderRadius:'20px',
-        boxShadow:'5px 5px ',
         backgroundColor: "black",
         boxShadow: "10px 10px 5px #505050 ",
        
@@ -48,7 +47,7 @@ const TeamDetail = () => {
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]))
 
-    },[])
+    },[teamId])
     return (
         <div>
             <div className ='background-image' >

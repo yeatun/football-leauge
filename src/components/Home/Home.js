@@ -4,8 +4,6 @@ import Team from '../Team/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Team/Team.css';
 import './Home.css';
-import { FormText } from 'react-bootstrap';
-
 
 
 

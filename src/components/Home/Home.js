@@ -4,6 +4,7 @@ import Team from '../Team/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Team/Team.css';
 import './Home.css';
+import { FormText } from 'react-bootstrap';
 
 
 
@@ -20,8 +21,8 @@ const Home = () => {
     return (
         <div>
           
-             <div style={{padding:"100px"}}>
-             <h1 style={{color:"#207BB6"}} ><b>YEATUN LEAGUE</b></h1>
+             <div  style={{padding:"100px"}}>
+             <h1 style={{color:"white",fontFamily:"serif"}} ><b>YEATUN LEAGUE</b></h1>
              </div>
        
        
